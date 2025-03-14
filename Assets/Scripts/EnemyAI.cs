@@ -38,6 +38,9 @@ public class EnemyAI : MonoBehaviour
         GetComponent<Rigidbody2D>().linearVelocityX = m_CurrentSpeed * m_Direction;
     }
 
+    
+    
+    
     /// <summary>
     /// A trigger is an invisible collision that happens.
     /// Nothing gets bumped or reacts, it just says, "Hey, I see the light turned red" and allows us to act.
@@ -74,6 +77,14 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    
+    
+    
+    
+    
+    
+   
+    
     /// <summary>
     /// This is our collision event, we hit another car!
     /// Physics can take over and we can also make interesting things happen here! 
