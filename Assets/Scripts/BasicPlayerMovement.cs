@@ -86,6 +86,7 @@ public class BasicPlayerMovement : MonoBehaviour
             text.text = "Enemy Score: " + m_Score;
             GetComponent<SpriteRenderer>().color = Color.red;
             StartCoroutine(ResetColor());
+            jumpCount = 0;//reset this here so we don't get stuck!
         }
     }
 
